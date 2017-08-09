@@ -1,5 +1,7 @@
 /* Originally from Internet
- *
+ * Installing OneWire library would also be necessary for a brand new environment.
+ *  https://github.com/ekyuho/OneWire 
+ *  https://github.com/ekyuho/Arduino-Temperature-Control-Library 
  */
 #include <OneWire.h> 
 #include <DallasTemperature.h>
