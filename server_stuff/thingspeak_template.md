@@ -1,11 +1,10 @@
-
-## You can use an exmple from ESP8266 Core with two changes.
-1. edit ssid and password for your WiFi AP.
-2. use your url with no "secure" feature
-
-## You can find an example from Arduino Sketcher.
+## Find an example from example directory of Arduino Sketcher program.
 
 File>Examples>ESP8266HTTPClient>BasicHttpClient
+
+## Two modification are required.
+1. edit ssid and password for your WiFi AP.
+2. use your url with no "secure" feature.
 
 ``` C++
 WiFiMulti.addAP("SSID", "PASSWORD");
