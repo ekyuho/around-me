@@ -5,11 +5,9 @@ You can use an exmple from ESP8266 Core with two changes.
 
 ```
 WiFiMulti.addAP("SSID", "PASSWORD");
-```
 ...
 
-```
-
+http.begin("url for calling thing speak with your own API key and field value(s)");
 ```
 It would look like as follows:
 ```
